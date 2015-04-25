@@ -1,0 +1,38 @@
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+	body {
+		background-color: #FF6666;
+		text-align: center;
+	}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	body {
+		background-color: #FF9966;
+		text-align: center;
+	}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 769px) {
+	body {
+		background-color: #FFCC66;
+	}
+
+	p {
+		width: 50%;
+	}
+
+	ul {
+		width: 50%;
+	}
+}
+/* Universal Styles */
+img {
+	max-width: 100%
+}
+
+audio {
+	display: none;
+}
